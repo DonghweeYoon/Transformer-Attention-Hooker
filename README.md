@@ -31,7 +31,7 @@ Wrap your model with `TransformerAttentionHooker` before running the forward pas
 ```python
 import torch
 import torch.nn as nn
-from src import TransformerAttentionHooker
+from transformer_attention_hooker import TransformerAttentionHooker
 
 # 1. Define or load your model
 model = nn.TransformerEncoder(
@@ -66,7 +66,7 @@ hooker.remove_hooks()
 Use the included `plot_attention_grid` function to generate heatmaps for all heads in a layer.
 
 ```python
-from src import plot_attention_grid
+from transformer_attention_hooker import plot_attention_grid
 
 # Assuming 'attn_tensor' is captured from the example above
 layer_name = "layers.0.self_attn"
