@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "transformer-attention-hooker"
+version = "0.1.0a1"
+description = "A lightweight, robust utility for extracting and visualizing attention weights from PyTorch Transformer models."
+readme = "README.md"
+requires-python = ">=3.6"
+authors = [
+  { name = "Donghwee Yoon", email = "donghwee.yoon@gmail.com" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "torch",
+    "matplotlib",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/dh-yoon/Transformer-Attention-Hooker"
+"Bug Tracker" = "https://github.com/dh-yoon/Transformer-Attention-Hooker/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
