@@ -22,8 +22,8 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/dh-yoon/Transformer-Attention-Hooker"
-"Bug Tracker" = "https://github.com/dh-yoon/Transformer-Attention-Hooker/issues"
+"Homepage" = "https://github.com/DonghweeYoon/Transformer-Attention-Hooker"
+"Bug Tracker" = "https://github.com/DonghweeYoon/Transformer-Attention-Hooker/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
