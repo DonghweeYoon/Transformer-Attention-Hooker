@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "transformer-attention-hooker"
-version = "0.1.0a1"
+version = "0.1.1a1"
 description = "A lightweight, robust utility for extracting and visualizing attention weights from PyTorch Transformer models."
 readme = "README.md"
 requires-python = ">=3.6"
